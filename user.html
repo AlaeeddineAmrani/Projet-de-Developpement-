@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/user.css">
+    <link rel="icon" href="/public/img/icon.png">
+    <title>User Page</title>
+</head>
+<body>
+    <div class="form">
+        <form action="" method="post">
+            <div>
+                <h1 id="titre-nom">Cherchez un voyage</h1><hr><br>
+            </div>
+            <div class="labelinput">
+                <label for="garedepart">Gare de départ : </label>
+                <select name="" id="selectdepart" required>
+                    <option value=""></option>
+                    <option value="Oujda">Oujda</option>
+                    <option value="Rabat">Rabat</option>
+                    <option value="Casa">Casa</option>
+                    <option value="Fes">Fès</option>
+                    <option value="Marrakech">Marrakech</option>
+                </select>
+            </div>
+            <div class="labelinput">
+                <label for="garearrivee">Gare d'arrivée : </label>
+                <select name="" id="selectarrivee" required>
+                    <option value=""></option>
+                    <option value="Oujda">Oujda</option>
+                    <option value="Rabat">Rabat</option>
+                    <option value="Casa">Casa</option>
+                    <option value="Fes">Fès</option>
+                    <option value="Marrakech">Marrakech</option>
+                </select>
+            </div><br>
+            <div class="labelinput">
+                <button type="submit" id="btnchercher">Chercher</button>
+            </div>
+        </form>
+    </div>
+    <div id="all"></div>
+    <script src="/public/js/user.js"></script>
+</body>
+</html>
