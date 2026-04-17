@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(232, 177, 109);
+    border-radius: 20px;
+    background-color:rgb(238, 231, 222);
+    max-width: 500px;
+    width: 100%;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('/public/img/bgcar.avif');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 17px;
+}
+
+.boutons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bouton{
+    width: 170px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.bouton:hover{
+    transform: scale(1.1);
+    background-color: rgb(206, 206, 206);
+}
+
+.boutondec{
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(230, 64, 64);
+    font-size: 16px;
+}
+.boutondec:hover{
+    background-color: rgb(153, 46, 46);
+    transform: scale(1.01);
+}

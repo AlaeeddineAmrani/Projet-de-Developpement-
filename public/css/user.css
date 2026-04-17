@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('/public/img/bgcar.avif');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 17px;
+}
+
+.form{
+    margin-top: 180px;
+    border: 2px solid rgb(232, 177, 109);
+    border-radius: 20px;
+    background-color: rgb(238, 231, 222);
+    max-width: 500px;
+    width: 100%;
+    margin: 130px auto;
+    padding: 20px;
+}
+
+label{
+    width: 180px;
+}
+
+#selectdepart{
+    width: 150px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+#selectarrivee{
+    width: 150px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+button{
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+button:hover{
+    background-color: rgb(204, 207, 204);
+    transform: scale(1.1);
+}
+
+.labelinput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.ticket{
+    border: 2px solid wheat;
+    border-radius: 10px;
+    background-color: white;
+    max-width: 400px;
+    padding: 20px;
+    margin: 10px auto;
+}
+

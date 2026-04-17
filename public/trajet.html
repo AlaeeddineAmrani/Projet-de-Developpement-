@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/trajet.css">
+    <link rel="icon" href="/public/img/icon.png">
+    <title>Ajouter Voyage</title>
+</head>
+<body>
+    <div class="form">
+        <form action="" onclick="" method="post">
+            <h1>Ajouter un trajet</h1><hr><br>
+            <div class="labelinput">
+                <label for="garedepart">Gare de depart : </label>
+                <input type="text" id="garedepart" required>
+            </div>
+            <div class="labelinput">
+                <label for="garearrivee">Gare d'arrivée : </label>
+                <input type="text" id="garearrivee" required>
+            </div>
+            <div class="labelinput">
+                <label for="datedepart">Date depart : </label>
+                <input type="datetime-local" id="datedepart" required>
+            </div>
+            <div class="labelinput">
+                <label for="duree">Durée de voyage : </label>
+                <input type="number" id="duree" required>
+            </div>
+            <div class="labelinput">
+                <label for="immatriculation">ID du car : </label>
+                <input type="text" id="immatriculation" required>
+            </div>
+            <div class="labelinput">
+                <label for="prix">Prix : </label>
+                <input type="number" id="prix" required>
+            </div><br>
+            <div class="labelinput">
+                <button type="submit" id="btnenregistrer">Enregistrer</button>
+            </div>
+        </form>
+    </div>  
+    <script src="/public/js/trajet.js"></script> 
+    
+</body>
+</html>
