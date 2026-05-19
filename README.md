@@ -26,17 +26,16 @@ Une application web Full-Stack conçue pour moderniser et digitaliser la gestion
 
 1. **Cloner le dépôt :**
    ```bash
-   git clone [https://github.com/AlaeeddineAmrani/backendproject.git]
+   git clone https://github.com/AlaeeddineAmrani/backendproject.git
 2. **Installer les dépendances :**
 Dans le dossier racine du projet, exécutez :
    ```bash
    npm install
 
 3. **Configuration de la Base de Données :**
-
-Importez la structure de la base de données MySQL à partir du dictionnaire de données conçu pour le projet.
-
-Modifiez les identifiants de connexion (hôte, utilisateur, mot de passe) dans le fichier database.js.
+Créez une base de données nommée autocar dans votre SGBD (phpMyAdmin, MySQL Workbench...).
+Importez le fichier autocar.sql (fourni à la racine du projet) pour générer les tables et les données de test.
+Modifiez les identifiants de connexion (host, user, password) dans le fichier db.js (ou créer un .env qui les contient) selon votre configuration locale.
 
 4. **Démarrer le serveur :**
       ```bash
@@ -46,8 +45,8 @@ Modifiez les identifiants de connexion (hôte, utilisateur, mot de passe) dans l
       
 L'application sera accessible localement, par défaut sur http://localhost:1000.
 
-**🏗️ Architecture des Données**
+## 🏗️ Architecture des Données
 Le système s'appuie sur une structure relationnelle solide garantissant l'intégrité des données (Gares, Trajets, Voyages, Autocars, Billets, Utilisateurs), incluant des règles de gestion via des Triggers (ex: contrôle de la capacité maximale des autocars avant réservation).
 
-**👨‍💻 Auteur**
+## 👨‍💻 Auteur
 Alaeeddine Amrani - Élève Ingénieur à l'INPT
