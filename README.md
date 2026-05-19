@@ -26,28 +26,28 @@ Une application web Full-Stack conçue pour moderniser et digitaliser la gestion
 
 1. **Cloner le dépôt :**
    ```bash
-   git clone [https://github.com/AlaeeddineAmrani/backendproject.git](https://github.com/AlaeeddineAmrani/backendproject.git)
-Installer les dépendances :
+   git clone [https://github.com/AlaeeddineAmrani/backendproject.git]
+2. **Installer les dépendances :**
 Dans le dossier racine du projet, exécutez :
+   ```bash
+   npm install
 
-Bash
-npm install
-Configuration de la Base de Données :
+3. **Configuration de la Base de Données :**
 
 Importez la structure de la base de données MySQL à partir du dictionnaire de données conçu pour le projet.
 
 Modifiez les identifiants de connexion (hôte, utilisateur, mot de passe) dans le fichier database.js.
 
-Démarrer le serveur :
-
-Bash
-npm start
-# ou si vous utilisez nodemon pour le développement
-nodemon server
+4. **Démarrer le serveur :**
+      ```bash
+      npm start
+      # ou si vous utilisez nodemon pour le développement
+      nodemon server
+      
 L'application sera accessible localement, par défaut sur http://localhost:1000.
 
-🏗️ Architecture des Données
+**🏗️ Architecture des Données**
 Le système s'appuie sur une structure relationnelle solide garantissant l'intégrité des données (Gares, Trajets, Voyages, Autocars, Billets, Utilisateurs), incluant des règles de gestion via des Triggers (ex: contrôle de la capacité maximale des autocars avant réservation).
 
-👨‍💻 Auteur
+**👨‍💻 Auteur**
 Alaeeddine Amrani - Élève Ingénieur à l'INPT
