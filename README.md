@@ -1,9 +1,8 @@
+Markdown
 # 🚌 Plateforme de Réservation d'Autocars
 
 ## 📖 Description
-Une application web Full-Stack conçue pour moderniser et digitaliser la gestion du transport de voyageurs par autocar. 
-Elle met en relation dynamique les offres de transport administrées par l'agence et les besoins de recherche des clients. 
-Le design a été récemment revu pour offrir une expérience utilisateur (UI/UX) plus moderne et immersive.
+Une application web Full-Stack conçue pour moderniser et digitaliser la gestion du transport de voyageurs par autocar. Elle met en relation dynamique les offres de transport administrées par l'agence et les besoins de recherche des clients. Le design a été récemment revu pour offrir une expérience utilisateur (UI/UX) plus moderne et immersive.
 
 ## ✨ Fonctionnalités
 
@@ -25,35 +24,30 @@ Le design a été récemment revu pour offrir une expérience utilisateur (UI/UX
 
 ## 🚀 Installation et Lancement
 
-
 1. **Cloner le dépôt :**
-   ~bash
+   ```bash
    git clone [https://github.com/AlaeeddineAmrani/backendproject.git](https://github.com/AlaeeddineAmrani/backendproject.git)
-
-
-2. **Installer les dépendances** :
+Installer les dépendances :
 Dans le dossier racine du projet, exécutez :
 
-    ~Bash
-    npm install
+Bash
+npm install
+Configuration de la Base de Données :
 
+Importez la structure de la base de données MySQL à partir du dictionnaire de données conçu pour le projet.
 
-3. **Configuration de la Base de Données** :
-Créez une base de données nommée autocar dans votre SGBD (phpMyAdmin, MySQL Workbench...).
-Importez le fichier autocar.sql (fourni à la racine du projet) pour générer les tables et les données de test.
-Modifiez les identifiants de connexion (host, user, password) dans le fichier db.js (ou créer un .env qui les contient) selon votre configuration locale.
+Modifiez les identifiants de connexion (hôte, utilisateur, mot de passe) dans le fichier database.js.
 
+Démarrer le serveur :
 
-4. **Démarrer le serveur** :
-     Bash
-     npm start
-     # ou si vous utilisez nodemon pour le développement
-     nodemon server
+Bash
+npm start
+# ou si vous utilisez nodemon pour le développement
+nodemon server
 L'application sera accessible localement, par défaut sur http://localhost:1000.
 
 🏗️ Architecture des Données
-Le système s'appuie sur une structure relationnelle solide garantissant l'intégrité des données (Gares, Trajets, Voyages, Autocars, Billets, Utilisateurs), 
-incluant des règles de gestion via des Triggers (ex: contrôle de la capacité maximale des autocars avant réservation).
+Le système s'appuie sur une structure relationnelle solide garantissant l'intégrité des données (Gares, Trajets, Voyages, Autocars, Billets, Utilisateurs), incluant des règles de gestion via des Triggers (ex: contrôle de la capacité maximale des autocars avant réservation).
 
 👨‍💻 Auteur
-AMRANI Alaeeddine - Élève Ingénieur à l'INPT
+Alaeeddine Amrani - Élève Ingénieur à l'INPT
